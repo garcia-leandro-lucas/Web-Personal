@@ -1,0 +1,63 @@
+/*
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Ubuntu Condensed', sans-serif;
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed|Ubuntu:300,300i,400,400i,500,500i,700,700i');
+
+/*##################*/
+/*MÓDULO FORMULARIO*/
+/*##################*/
+
+
+.formularioContacto {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    text-align: left;
+}
+
+
+section.formularioContacto {
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+input {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 200;
+    width: 100%;
+    border: 1px solid #b7007a;
+    font-size: 15px;
+    padding: 10px;
+    color: #b7007a;
+}
+
+textarea#msg {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 200;
+    width: 100%;
+    height: 200px;
+    border: 1px solid #b7007a;
+    font-size: 15px;
+    padding: 10px;
+    color: #b7007a;
+    resize: none;
+}
+
+.btn-animate {
+    width: 30%;
+}
+
+.button-formulario {
+    /* width: 300px; */
+    margin: 0 auto;
+}
+
+.form-L.col-md-6.col-sm-12 {
+    margin-bottom: 25px;
+}
+
+/*##################*/
+/*FIN MÓDULO FORMULARIO*/
+/*##################*/

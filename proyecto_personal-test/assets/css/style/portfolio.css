@@ -1,0 +1,93 @@
+/*
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Ubuntu Condensed', sans-serif;
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed|Ubuntu:300,300i,400,400i,500,500i,700,700i');
+
+/*####################*/
+/*MÓDULO DE PORTFOLIO*/
+/*####################*/
+
+
+.col-50 {
+    width: 50%;
+    float: left;
+}
+
+.separador {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.linea hr {
+    background-color: #b7007a;
+    width: 300px;
+}
+
+/*Zoom Imagenes*/
+.zoom-effect-container {
+    float: left;
+    width: 1017px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.image-card {
+    top: 0;
+    left: 0;
+
+}
+
+.image-card img {
+    -webkit-transition: 0.4s ease;
+    transition: 0.4s ease;
+}
+
+.zoom-effect-container:hover .image-card img {
+    -webkit-transform: scale(1.08);
+    transform: scale(1.08);
+}
+
+
+/*Fin Zoom Imagenes*/
+
+/*####################*/
+/*FIN MÓDULO DE PORTFOLIO*/
+/*####################*/
+
+/*MEDIA QUERIES*/
+/*MEDIA 1200 PX*/
+
+@media (max-width: 1200px){
+.col-50 {
+        width: 100%;
+        float: none;
+    }
+
+    /*Efecto Zoom*/
+   .zoom-effect-container {
+    float: left;
+    width: 100%;
+    margin: 0 auto;
+       overflow: hidden;
+    }
+    }
+
+/*MEDIA 600 PX*/
+
+@media (max-width: 600px){
+    
+
+
+   
+    .col-50 {
+        width: 100%;
+        float: none;
+    }
+    }    

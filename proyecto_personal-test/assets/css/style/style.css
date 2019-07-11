@@ -1,0 +1,117 @@
+/*
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Ubuntu Condensed', sans-serif;
+*/
+
+@import 'header.css';
+@import 'slider.css';
+@import 'sobreMi.css';
+@import 'portfolio.css';
+@import 'form.css';
+@import 'footer.css';
+
+
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed|Ubuntu:300,300i,400,400i,500,500i,700,700i');
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+    background-color: #fff !important;
+}
+
+a,
+ul,
+li {
+    text-decoration: blink;
+}
+
+.containerWeb {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+
+header.headerLeandroGarcia {
+    width: 100%;
+    height: 100%;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: 0px !important;
+    margin-left: -15px;
+}
+
+
+
+
+
+.content-menu-mobile {
+        height: 100vh !important;
+    position: fixed;
+    z-index: 9999;
+    top: 0px;
+}
+.fix{overflow: hidden;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/

@@ -1,0 +1,264 @@
+/*
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Ubuntu Condensed', sans-serif;
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed|Ubuntu:300,300i,400,400i,500,500i,700,700i');
+
+/*##############*/
+/*MÓDULO FOOTER*/
+/*##############*/
+
+   ul.ulMenuFooter {
+    display: flex;
+}
+
+
+.background {
+    background-color: #4d4d4d;
+}
+
+.redesSociales {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.Logo img {
+    width: 6%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.menuFooter.col-md-6.col-sm-12 ul {
+    display: flex;
+}
+
+.linkRedesSociales {
+    display: inline-flex;
+}
+
+
+.Logo.col-sm-12 img {
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.copy {
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    padding-bottom: 30px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.menuFooter li {
+    padding: 10px;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.menuFooter a,
+ul,
+li {
+    text-decoration: blink;
+    display: flex;
+}
+
+.redesSociales span {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 300;
+}
+
+.logoRedes {
+    padding: 20px;
+    color: #fff;
+    font-size: 25px;
+}
+
+.logoRedes:hover {
+    color: #b7007a;
+    transition: all 0.5s;
+}
+
+.linkRedesSociales {
+    display: inline-flex;
+    align-items: center;
+    align-content: center;
+    margin: 0 auto;
+}
+
+/*##############*/
+/*FIN MÓDULO FOOTER*/
+/*##############*/
+
+
+
+
+/*MEDIA QUERIES*/
+
+/*MEDIA 1200 PX*/
+@media (max-width: 1200px) {
+
+    .menuFooter {
+        margin: 0 auto;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    ul.ulMenuFooter {
+    display: flex;
+}
+
+    .menuFooter.col-md-6.col-sm-12 ul {
+        display: block;
+    }
+
+    .redesSociales.col-md-6.col-sm-12 {
+        margin: 0 auto;
+        text-align: center;
+        display: grid;
+    }
+
+    .Logo.col-sm-12 img {
+        width: 10%;
+    }
+
+    .copy {
+        padding-bottom: 30px;
+        color: #fff;
+        font-size: 15px;
+        font-weight: 200;
+    }
+
+    .linkRedesSociales {
+        display: inline-flex;
+        margin: 0 auto;
+        text-align: center;
+        padding: 20px;
+        font-size: 30px;
+    }
+
+    .logoRedes {
+        padding: 10px;
+    }
+
+    input {
+        width: 100%;
+        border: 1px solid #b7007a;
+        font-size: 15px;
+        padding: 12px;
+        font-weight: 200;
+        color: #b7007a;
+    }
+
+    textarea#msg {
+        width: 100%;
+        height: 200px;
+        border: 1px solid #b7007a;
+        font-size: 15px;
+        font-weight: 200;
+        padding: 12px;
+        color: #b7007a;
+    }
+
+    .menuFooter a,
+    ul,
+    li {
+        text-decoration: blink;
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        padding: 0;
+    }
+
+
+}
+
+
+/*MEDIA 600 PX*/
+@media (max-width: 600px) {
+
+
+    .menuFooter {
+        margin: 0 auto;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    ul.ulMenuFooter {
+    display: grid;
+}
+
+    .menuFooter.col-md-6.col-sm-12 ul {
+        display: block;
+    }
+
+    .redesSociales.col-md-6.col-sm-12 {
+        margin: 0 auto;
+        text-align: center;
+        display: grid;
+    }
+
+    .Logo.col-sm-12 img {
+        width: 30%;
+    }
+
+    .copy {
+        padding-bottom: 30px;
+        color: #fff;
+        font-size: 15px;
+        font-weight: 200;
+    }
+
+    .linkRedesSociales {
+        display: inline-flex;
+        margin: 0 auto;
+        text-align: center;
+        padding: 20px;
+        font-size: 30px;
+    }
+
+    .logoRedes {
+        padding: 10px;
+    }
+
+    input {
+        width: 100%;
+        border: 1px solid #b7007a;
+        font-size: 15px;
+        padding: 12px;
+        font-weight: 200;
+        color: #b7007a;
+    }
+
+    textarea#msg {
+        width: 100%;
+        height: 200px;
+        border: 1px solid #b7007a;
+        font-size: 15px;
+        font-weight: 200;
+        padding: 12px;
+        color: #b7007a;
+    }
+
+    .menuFooter a,
+    ul,
+    li {
+        text-decoration: blink;
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        padding: 0;
+    }
+
+
+
+}
